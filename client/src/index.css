@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+}
+body{
+  background-color: #f2f2f2f2;
+}
+.bg{
+  background-image: url('./images/company2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.text-final{
+  font-weight: bolder;
+}
+li{
+  display: inline-block;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.gradient{
+  background: linear-gradient(#e66465, #9198e5);
+}
